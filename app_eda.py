@@ -1,12 +1,13 @@
 # ──────────────────────────────────────────────────────────
 # 0) 공통 import
 # ──────────────────────────────────────────────────────────
-import streamlit as st
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import io, time, textwrap
+if __name__ == "__main__":
+    import streamlit as st
+    import pandas as pd
+    import numpy as np
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+    import io, time, textwrap
 
 # (Firebase · 로그인/회원가입 영역은 생략)
 # …
